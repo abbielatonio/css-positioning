@@ -1,0 +1,86 @@
+.container1 {
+  margin: 20px;
+  height: 200px;
+  display: flex;
+  border: 1px solid white;
+  padding: 20px;
+  width: 1000px;
+}
+.red1,
+.blue1,
+.green1 {
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
+}
+.red1 {
+  background-color: red;
+  position: fixed
+}
+.blue1 {
+  position: relative;
+  background-color: blue;
+  top: 30px;
+  left: 50px;
+  z-index: 3;
+}
+.green1 {
+  position: relative;
+  background-color: green;
+  top: 15px;
+  left: -100px;
+  z-index: 2;
+}
+.red2,
+.blue2,
+.green2 {
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
+}
+.red2 {
+  background-color: red;
+  position: relative;
+  left: 100px;
+}
+.blue2 {
+  position: relative;
+  background-color: blue;
+  top: 30px;
+  left: 30px;
+  z-index: 2;
+}
+.green2 {
+  position: relative;
+  background-color: green;
+  top: 15px;
+  left: -120px;
+  z-index: 3;
+}
+.red3,
+.blue3,
+.green3 {
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
+}
+.red3 {
+  background-color: red;
+  position: relative;
+  top: 30px;
+  left: 100px;
+  z-index: 2;
+}
+.blue3 {
+  position: relative;
+  background-color: blue;
+  left: 20px;
+  z-index: 3;
+}
+.green3 {
+  position: relative;
+  background-color: green;
+  top: 15px;
+  left: -120px;
+  z-index: 1; 
+}

@@ -1,0 +1,34 @@
+.container1 {
+  margin: 20px;
+  height: 200px;
+  display: flex;
+  border: 1px solid white;
+  padding: 20px;
+  width: 1000px;
+}
+.red,
+.blue,
+.green {
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
+}
+.red {
+  background-color: red;
+  position: relative;
+  top: 30px;
+  z-index: 2;
+}
+.blue {
+  position: relative;
+  background-color: blue;
+  left: -80px;
+  z-index: 3;
+}
+.green {
+  position: relative;
+  background-color: green;
+  top: 15px;
+  left: -220px;
+  z-index: 1;
+}
